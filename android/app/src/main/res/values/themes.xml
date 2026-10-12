@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Window background = Neo.BgEnd (#10131A): no white flash before Compose draws. -->
+    <color name="gd_window_bg">#10131A</color>
+    <style name="Theme.GitDrip" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/gd_window_bg</item>
+        <item name="android:colorBackground">@color/gd_window_bg</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Neo-Tactile design tokens. Single source of colour for res/ + ui/Tokens.kt (object Neo mirrors every value; NeoLogicTest fails if they drift). Alphas live in NeoAlpha. -->
+    <color name="neo_bg_start">#A0B1C3</color> <!-- Backdrop gradient, top-left -->
+    <color name="neo_bg_mid">#414E5E</color> <!-- Backdrop gradient, middle -->
+    <color name="neo_bg_end">#10131A</color> <!-- Backdrop gradient, bottom-right (also window background) -->
+    <color name="neo_orb_blue">#467EF7</color> <!-- Backdrop orb, blue (alpha 18%) -->
+    <color name="neo_orb_cyan">#73F1F0</color> <!-- Backdrop orb, cyan (alpha 12%) -->
+    <color name="neo_glass_fill">#293545</color> <!-- Glass panel fill (alpha 55-65%, solid fallback 92%) -->
+    <color name="neo_glass_shade">#10131A</color> <!-- Frost tint under the glass fill (alpha 40%): keeps text >= 4.5:1 over the light top-left of the backdrop -->
+    <color name="neo_glass_rim">#AABFD4</color> <!-- Glass rim, top-left -->
+    <color name="neo_glass_glow">#73F1F0</color> <!-- Glass rim glow, bottom/right (alpha 35%) -->
+    <color name="neo_raised_button">#E7EEF6</color> <!-- Raised surface: button -->
+    <color name="neo_raised_card">#DFE6F0</color> <!-- Raised surface: card -->
+    <color name="neo_raised_modal">#D7DEE8</color> <!-- Raised surface: modal / dialog -->
+    <color name="neo_highlight">#FFFFFF</color> <!-- Inner highlight on the top-left edge (alpha 70%) -->
+    <color name="neo_shadow_dark">#000000</color> <!-- Raised shadow, dark side (alpha 25%) -->
+    <color name="neo_shadow_light">#FFFFFF</color> <!-- Raised shadow, light side (alpha 40%) -->
+    <color name="neo_active_start">#3A6BEF</color> <!-- Active button gradient start (darker than the 6B9BFF spec so a white label stays >= 4.5:1) -->
+    <color name="neo_active_mid">#3466E8</color> <!-- Active gradient middle -->
+    <color name="neo_active_end">#2B58D6</color> <!-- Active gradient end -->
+    <color name="neo_active_glow">#467EF7</color> <!-- Blue glow under active controls (alpha 40%) -->
+    <color name="neo_on_active">#FFFFFF</color> <!-- Label / icon on the active gradient -->
+    <color name="neo_inset_fill">#28303B</color> <!-- Inset well fill -->
+    <color name="neo_track">#6E7F91</color> <!-- Slider / progress track -->
+    <color name="neo_fill_start">#4A7BE8</color> <!-- Blue fill start (4170DA spec is 2.9:1 on the well, this is 3.4:1) -->
+    <color name="neo_fill_end">#4E97FD</color> <!-- Blue fill end -->
+    <color name="neo_ring_stroke">#9EFCFF</color> <!-- Neon ring stroke (2dp) and cyan text on dark -->
+    <color name="neo_ring_glow">#73F1F0</color> <!-- Neon ring outer glow (alpha 40%, 12dp) -->
+    <color name="neo_toggle_track">#3F75F3</color> <!-- Switch track, on -->
+    <color name="neo_toggle_knob">#D9DDE8</color> <!-- Switch knob -->
+    <color name="neo_toggle_knob_rim">#F2F4FA</color> <!-- Switch knob rim (2dp, lighter) -->
+    <color name="neo_text_on_dark">#FFFFFF</color> <!-- Primary text on dark surfaces -->
+    <color name="neo_text2_on_dark">#C3CCDA</color> <!-- Secondary text on dark surfaces -->
+    <color name="neo_text_on_light">#0B1220</color> <!-- Primary text on light surfaces -->
+    <color name="neo_text2_on_light">#545E6F</color> <!-- Secondary text on light surfaces (5B6475 spec is 4.40:1 on the modal, this is 4.83:1) -->
+    <color name="neo_accent_on_dark">#BFD3FF</color> <!-- Links / text buttons on dark surfaces -->
+    <color name="neo_accent_on_light">#2756C8</color> <!-- Links / text buttons on light surfaces -->
+    <color name="neo_teal_on_light">#0B6A82</color> <!-- Running state text on light surfaces -->
+    <color name="neo_danger">#F87171</color> <!-- Danger accent (fills) -->
+    <color name="neo_danger_on_light">#B91C1C</color> <!-- Danger text on light surfaces -->
+    <color name="neo_danger_on_dark">#FECACA</color> <!-- Danger text on dark surfaces -->
+    <color name="neo_success">#34D399</color> <!-- Success accent (fills) -->
+    <color name="neo_success_on_light">#066B4A</color> <!-- Success text on light surfaces (047857 spec is 4.05:1 on the modal) -->
+    <color name="neo_success_on_dark">#6EE7B7</color> <!-- Success text on dark surfaces -->
+    <color name="neo_warning">#FBBF24</color> <!-- Warning accent (fills) -->
+    <color name="neo_warning_on_light">#92400E</color> <!-- Warning text on light surfaces -->
+    <color name="neo_warning_on_dark">#FCD34D</color> <!-- Warning text on dark surfaces -->
+    <color name="neo_outline_on_light">#6E7F91</color> <!-- Borders / dividers on light surfaces -->
+    <color name="neo_surf_low">#1B2330</color> <!-- Opaque dark container, low -->
+    <color name="neo_surf_mid">#222C3A</color> <!-- Opaque dark container, mid -->
+    <color name="neo_surf_high">#293545</color> <!-- Opaque dark container, high -->
+    <color name="neo_surf_highest">#344258</color> <!-- Opaque dark container, highest -->
+</resources>
