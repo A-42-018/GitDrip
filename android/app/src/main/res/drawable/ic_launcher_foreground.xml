@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
+    <!-- drop kept inside the 66dp adaptive safe zone -->
+    <path android:fillColor="#22D3EE" android:pathData="M54,28 C54,28 38,46 38,58 A16,16 0 0 0 70,58 C70,46 54,28 54,28 Z" />
+    <path android:fillColor="#6366F1" android:pathData="M54,44 C54,44 46,54 46,60 A8,8 0 0 0 62,60 C62,54 54,44 54,44 Z" />
+</vector>
